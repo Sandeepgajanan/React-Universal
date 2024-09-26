@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-gray-200 via-gray-500 to-gray-800;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #007b7f;
+  border-radius: 10px;
+}
